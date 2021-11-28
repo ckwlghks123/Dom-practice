@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@splidejs/splide": "^3.6.4",
+    "animate.css": "^4.1.1"
+  }
+}
