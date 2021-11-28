@@ -29,7 +29,7 @@ promo.addEventListener("click", (e) => {
 });
 document.addEventListener("DOMContentLoaded", function () {
   const splide = new Splide("#thumbnail-slider", {
-    // type: "loop",
+    type: "loop",
     start: 0,
     fixedWidth: 840,
     fixedHeight: 541,

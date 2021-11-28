@@ -872,7 +872,7 @@ main .main_content_inner .main_content_set {
 }
 
 .fav_wrap {
-  background: url(/img/fav_prod_bg_new.jpg) center fixed no-repeat #45434c;
+  background: url(img/fav_prod_bg_new.jpg) center fixed no-repeat #45434c;
   background-size: auto 100%;
   height: 800px;
   padding: 0;
