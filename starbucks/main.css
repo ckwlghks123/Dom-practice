@@ -49,7 +49,7 @@ header .logo a {
   display: block;
   width: 100%;
   height: 100%;
-  background: url("../img/logo.png");
+  background: url("img/logo.png");
   text-indent: -9999px;
 }
 header .navs {
@@ -80,7 +80,7 @@ header nav.top_nav {
 header nav.top_nav ul {
   height: 20px;
   width: 464px;
-  background: url(/img/sdown_util_sep.png);
+  background: url(img/sdown_util_sep.png);
 }
 
 header nav.top_nav ul li {
@@ -101,7 +101,7 @@ header .navs p {
   top: 9px;
   right: 54px;
   height: 34px;
-  width: 34px;
+  width: 36px;
   background: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -119,6 +119,28 @@ header .navs p a img {
   top: 6px;
 }
 
+.search_btn label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.search_btn #search {
+  /* display: inline-block; */
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 22px;
+  width: 0;
+  font-size: 12px;
+  padding: 0 10px;
+  background: none;
+  border: none;
+  color: #777;
+}
 header .navs p input {
   display: none;
 }
@@ -494,10 +516,11 @@ main .main_content_inner .main_content_set {
 .banners {
   display: none;
   position: relative;
-  height: 658px;
+  height: 0;
   width: 100%;
   border-top: 1px solid #f6f5ef;
   background: #f6f5ef;
+  transition: all 1s;
 }
 
 .slider {
